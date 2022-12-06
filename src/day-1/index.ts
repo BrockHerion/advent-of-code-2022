@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as readline from "readline";
 
-async function main() {
+function main() {
   // Read in values
   const fileStream = fs.createReadStream("src/day-1/input.txt");
 
@@ -42,4 +42,4 @@ async function main() {
   });
 }
 
-main().catch((err) => console.error(err));
+main();
